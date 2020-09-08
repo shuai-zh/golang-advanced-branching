@@ -49,7 +49,7 @@ const (
 
 var (
 	vehicleResult map[string]feedbackResult
-	inventory     vehicle
+	inventory     []vehicle
 )
 
 func init() {
